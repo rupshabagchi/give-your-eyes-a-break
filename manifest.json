@@ -1,13 +1,13 @@
 {
 
   "manifest_version": 2,
-  "name": "Beastify",
+  "name": "Rest",
   "version": "1.0",
 
-  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "description": "Adds a browser action icon to the toolbar. The active tab's body content is then replaced with a picture of the chosen beast.",
+  "homepage_url": "",
   "icons": {
-    "48": "icons/beasts-48.png"
+    "48": "icons/restify.png"
   },
 
   "permissions": [
@@ -17,13 +17,11 @@
   "browser_action": {
     "default_icon": "icons/beasts-32.png",
     "default_title": "Beastify",
-    "default_popup": "popup/choose_beast.html"
+    "default_popup": "popup/rest.html"
   },
 
   "web_accessible_resources": [
-    "beasts/frog.jpg",
-    "beasts/turtle.jpg",
-    "beasts/snake.jpg"
+    "img/cute_cat.jpg"
   ]
 
 }
