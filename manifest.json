@@ -4,7 +4,7 @@
   "name": "Rest",
   "version": "1.0",
 
-  "description": "Adds a browser action icon to the toolbar. The active tab's body content is then replaced with a picture of the chosen beast.",
+  "description": "Adds a browser action icon to the toolbar. The active tab's body content is then replaced with the picture.",
   "homepage_url": "",
   "icons": {
     "48": "icons/restify.png"
