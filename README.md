@@ -13,5 +13,5 @@ To download and run it,
 
 ```
 git clone https://github.com/rupshabagchi/give-your-eyes-a-break.git
-about:debugging -> temporary add-on -> select manifest.json //On the browser
+about:debugging -> temporary add-on -> select manifest.json //on firefox
 ```
